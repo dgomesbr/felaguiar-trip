@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <ul>
+    {{#mediaList}}
+        {{#images}}
+            {{#low_resolution}}
+            <li><img src="{{url}}" width="{{width}}" height="{{height}}" /></li>
+            {{/low_resolution}}
+        {{/images}}
+    {{/mediaList}}
+    </ul>
+</body>
+</html>

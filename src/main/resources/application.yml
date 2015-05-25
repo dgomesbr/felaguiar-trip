@@ -1,0 +1,17 @@
+management:
+  port: 8091
+
+server:
+  port: 8090
+
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:mem:test;MODE=PostgreSQL;DB_CLOSE_ON_EXIT=FALSE
+
+client:
+  id: 43ef99018c9649abaf0704aa01297c2f
+  secret: 93c4a8e827284233bfbaefa289a6756b
+  token: 30590069.43ef990.cc80856b2de948398235591aed213f4e
+  tagname: dois_no_mundo
+
